@@ -1,7 +1,7 @@
 <template>
     <header>
-        <div class="categories" v-for="category in categories.category" :key='category.title'>
-            <category-component :category="category"></category-component>
+        <div class="categories">
+            <category-component :category="category" v-for="category in categories.category" :key='category.title'></category-component>
         </div>
     </header>
 </template>
@@ -52,6 +52,19 @@ export default {
                                 ]
                             }
                         ]
+                    },
+                    {
+                        title: "Programming",
+                        links: [
+                            {
+                                name: 'Github',
+                                url: 'https://github.com/' 
+                            },
+                            {
+                                name: 'MDN Web Docs',
+                                url: 'https://developer.mozilla.org/en-US/'
+                            }
+                        ],
                     }
                 ]
             }
