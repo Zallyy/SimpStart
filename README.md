@@ -1,24 +1,6 @@
-# startpage
+# SimpStart
+A simple and hopefully nice looking and easily customizable start page.
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Features
+* Categorize your links and folders easily
+* Search with google - default "dog", ddg "-d dog", ytube "-y dog"
