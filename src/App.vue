@@ -15,8 +15,9 @@
 :root {
   --header-color: #3D2E92;
   --text-color: #ffffff;
+  --message-color: #ffffff;
   --background-color: #f3f3f3;
-  --background-url: url('https://images7.alphacoders.com/946/thumb-1920-946883.jpg'); /* If you dont want a wallpaper erase the link not the variable*/
+  --background-url: url('https://images7.alphacoders.com/946/thumb-1920-946883.jpg');
   --search-bar-color: #9f90b9;
 }
 
@@ -60,7 +61,7 @@
 
 .form h1 {
   font-size: 3.5em;
-  color: var(--text-color);
+  color: var(--message-color);
   margin-bottom: 50px;
 }
 
@@ -83,6 +84,10 @@
 }
 
 header {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   z-index: 10000;
   width: 100%;
   position: fixed;
