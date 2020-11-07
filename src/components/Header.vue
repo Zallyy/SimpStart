@@ -65,6 +65,27 @@ export default {
                                 url: 'https://developer.mozilla.org/en-US/'
                             }
                         ],
+                    },
+                    {
+                        title: "Social",
+                        links: [
+                            {
+                                name: 'YouTube',
+                                url: 'https://youtube.com/' 
+                            },
+                            {
+                                name: 'Twitter',
+                                url: 'https://twitter.com'
+                            },
+                            {
+                                name: 'Reddit',
+                                url: 'https://reddit.com'
+                            },
+                            {
+                                name: 'Gmail',
+                                url: 'https://gmail.com'
+                            }
+                        ],
                     }
                 ]
             }
@@ -72,7 +93,3 @@ export default {
     }
 }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
