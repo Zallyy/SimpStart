@@ -11,13 +11,13 @@ A simple and hopefully nice looking and easily customizable start page.
  * Have node & npm installed on your machine
  * Have basic Javascript knowledge, not really though
  * Create a Github Account
-
+ * Some terminal/cmd line experience
 ## How to use
 Might be a bit hard to follow if you aren't used to this kind of thing... Sorry
 
 1. Fork this repo, and download your forked version onto your pc.
 2. Go into the cloned/downloaded repo directory
-3. Run ```npm install```
+3. Run ```npm install``` and the following commands in the command line while in the directory.
 4. Run ```npm run serve``` to see your changes in real time
 5. Open and Edit ``App.vue`` in the src folder 
 
